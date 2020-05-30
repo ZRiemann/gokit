@@ -6,7 +6,6 @@ type singleton map[string]string
 
 var (
 	once sync.Once
-
 	instance singleton
 )
 
